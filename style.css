@@ -1,3 +1,7 @@
+body{
+    font-family: roboto;
+}
+
 .header {
     display:flex;
     justify-content: space-between;
@@ -44,4 +48,52 @@ li{
 
 .footer{
     text-align:center;
+}
+
+
+
+.content, .header{
+    margin: 0 60px;
+}
+
+.content1, .header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.content1 .left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content1 .left p, .right-links{
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.btn, .content4 .box{
+    background-color: #3882F6;
+}
+
+.content2 h3{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content3 {
+    background-color: #E5E7EB;
+}
+
+.content3 p{
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
 }
