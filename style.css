@@ -1,0 +1,47 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+.content1{
+    display: flex;
+}
+
+.content2 h3{
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content3 h4{
+    align-self: flex-end;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    text-align:center;
+}
