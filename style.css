@@ -1,10 +1,18 @@
 body{
     font-family: roboto;
+    margin: 0;
 }
 
 .header {
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 ul{
@@ -19,6 +27,14 @@ li{
 
 .content1{
     display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.right img{
+    width: 500px;
+    height: 350px;
+    margin: 15px;
 }
 
 .content2 h3{
@@ -28,37 +44,84 @@ li{
 .images{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
+.images div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.images div p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 .content3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    font-style: oblique;
 }
 .content3 h4{
     align-self: flex-end;
+    padding-bottom: 30px;
 }
 
 .box{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin: 70px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box .box-left{
+    width: 400px;
+    color: #1F2937;
+}
+.box-left h5{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px;
 }
 
-.footer{
-    text-align:center;
+.box-left p{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 10px;
 }
 
+.box-right button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #1F2937;
+    color: #1F2937;
+    background-color: #3882F6
+}
 
 
 .content, .header{
-    margin: 0 60px;
+    margin: 0;
 }
 
 .content1, .header, .footer {
     background-color: #1F2937;
     color: white;
+    margin: 0;
 }
 
 .content1 .left h1{
@@ -67,13 +130,19 @@ li{
     color: #F9FAF8;
 }
 
-.content1 .left p, .right-links{
-    font-size: 12px;
+.content1 .left{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-links {
+    font-size: 16px;
     color: #E5E7EB;
 }
 
 .header .logo{
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -82,13 +151,17 @@ li{
 }
 
 .content2 h3{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bolder;
     color: #1F2937;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .content3 {
     background-color: #E5E7EB;
+    padding:0 100px;
+    padding-top: 30px;
 }
 
 .content3 p{
@@ -96,4 +169,51 @@ li{
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+}
+
+.content1 .left{
+    padding-left: 50px;
+}
+.content1 .right {
+    padding-right: 50px;
+}
+
+.header .logo{
+    padding-left: 100px;
+}
+.header .right-links{
+    padding-right: 100px;
+    align-self: flex-end;
+}
+
+.right-links ul li {
+    padding: 0 8px;
+}
+
+.content1 .left .btn {
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.content4{
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+}
+
+.footer p {
+    letter-spacing: 1px;
 }
